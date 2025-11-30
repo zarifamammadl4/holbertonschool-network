@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-# Displays listening TCP/UDP ports along with program names
-
-sudo netstat -tulnp | grep LISTEN
+netstat -lpn
